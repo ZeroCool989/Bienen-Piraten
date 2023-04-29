@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Roboto&display=swap');
+
+:root{
+  --main-brand-color: #eec04b;
+  --primary-color: #714925;
+  --secondary-color:#43382f;
+  --light-secondary-color: #6b4b17;
+  --text-color: black;
+  --secondary-text-color:#B3B4B6;
+}
+
+*{
+  margin: 0;
+  padding:0;
+}
+
+body{
+  min-height: 100vh;
+  background-color: var(--main-brand-color);
+  font-family: 'Alex Brush';
+  font-size: 30px;
+  color: var(--text-color);
+}
+
+h3{
+  font-size: 38px;
+}
