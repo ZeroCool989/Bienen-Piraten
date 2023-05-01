@@ -1,45 +1,47 @@
-#produkte_section{
+#produkte_section {
   padding: 70px 0;
 }
 
-#produkte_section h2{
+#produkte_section h2 {
   font-size: 60px;
   text-align: centre;
   color: black;
   display: flex;
 }
 
-#description_of_products{
-  display:flex;
+#description_of_products {
+  display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color:black;
+  font-family: 'poppins';
+  color: black;
   width: 100%;
 }
-#description_of_products h2{
-  text-align:  center;
+
+#description_of_products h2 {
+  text-align: center;
 }
 
 #description_of_products p {
-  color: black ;
+  color: black;
   margin-top: 15px;
   margin-left: 25px;
   margin-right: 25px;
   width: 100%;
 }
 
-
-
-.flex_container{
+.flex_container {
   margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
   display: flex;
   gap: 40px;
   justify-content: center;
-  font-family: 'Outbund';
+  font-family: 'poppins';
+  width: 100%;
 }
 
-.card{
+.card {
   width: 350px;
   background-color: var(--main-brand-color);
   border-radius: 100px;
@@ -49,6 +51,7 @@
   justify-content: center;
   gap: 20px;
 }
-.card *{
+
+.card * {
   text-align: center;
 }

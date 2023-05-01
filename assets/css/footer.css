@@ -1,0 +1,58 @@
+.container {
+    font-family: poppins;
+    text-align: center;
+    background-color: #eec04b;
+}
+
+.container p {
+    color: black;
+    font-style: italic;
+}
+
+footer {
+    background-color: #6b4b17;
+}
+
+#footer_logo {
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.images {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#kontakt_bild {
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    align-content: right;
+}
+
+footer h2 {
+    font-family: poppins;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+footer h3 {
+    margin-top: 25px;
+    margin-left: 60px;
+    font-family: poppins;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-family: poppins;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    margin-top: 0;
+    color: white;
+    text-align: center;
+}
