@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/produkte.css">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="assets/images/Logos/stamp design 2021.png" alt="logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="produkte.html">Produkte</a></li>
+                        <li><a href="über_uns.html">Über Uns</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--Produkte Section-->
+    <!--CART-->
+    <div id="cart-info" class="nav-info cart-info">
+        <span class="cart-info__icon"><i class="fas fa-shopping-cart"></i></span>
+        <p><span id="item-count">0</span> items</p>
+    </div>
+
+    <section class="cart" id="cart">
+        <h1 class="section-header">CART</h1>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items go here -->
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">€0.00</span>
+        </div>
+
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        <button class="btn btn-secondary btn-close-cart" type="button">CLOSE</button>
+    </section>
+
+    <div class="main-container">
+        <p class="title">Unsere Produkte</p>
+    </div>
+
+    <div id="filterButtons">
+        <button class="btn active" onclick="filterSelection('all')">All</button>
+        <button class="btn" onclick="filterSelection('zander')">Zander</button>
+        <button class="btn" onclick="filterSelection('golzbeute')">Golzbeute</button>
+        <button class="btn" onclick="filterSelection('dnm10')">DNM 10</button>
+        <button class="btn" onclick="filterSelection('dnm12')">DNM 12</button>
+        <button class="btn" onclick="filterSelection('dadantus12')">Dadant US 12</button>
+    </div>
+
+    <section class="container">
+        <div class="products">
+
+            <!--Zander-->
+            <div class="product zander">
+                <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+                <h5 class="product-title"> Metalldeckel</h5>
+                <div class="shop-item-details">
+                    <h3 class="product__price">€16.00</h3>
+                    <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product zander">
+                <img src="assets/images/Zander/Zander_Innendeckel.jpg" class="product__image">
+                <h5 class="product-title">Innedeckel</h5>
+                <div class="shop-item-details">
+                    <h3 class="product__price">€48.00</h3>
+                    <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product zander">
+                <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+                <h5 class="product-title"> Metalldeckel</h5>
+                <div class="shop-item-details">
+                    <h3 class="product__price">€16.00</h3>
+                    <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product zander">
+                <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+                <h5 class="product-title"> Metalldeckel</h5>
+                <div class="shop-item-details">
+                    <h3 class="product__price">€16.00</h3>
+                    <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product zander">
+                <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+                <h5 class="product-title"> Metalldeckel</h5>
+                <div class="shop-item-details">
+                    <h3 class="product__price">€16.00</h3>
+                    <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product zander">
+                <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+                <h5 class="product-title"> Metalldeckel</h5>
+                <div class="shop-item-details">
+                    <h3 class="product__price">€16.00</h3>
+                    <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product zander">
+                <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+                <h5 class="product-title"> Metalldeckel</h5>
+                <div class="shop-item-details">
+                    <h3 class="product__price">€16.00</h3>
+                    <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+                </div>
+            </div>
+            <!--Golzbeute-->
+            <div class="product golzbeute">
+                <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+                <h5 class="product-title"> Metalldeckel</h5>
+                <div class="shop-item-details">
+                    <h3 class="product__price">€16.00</h3>
+                    <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+                </div>
+            </div>
+        <!--DNM 10-->
+        <div class="product dnm10">
+            <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+            <h5 class="product-title"> Metalldeckel</h5>
+            <div class="shop-item-details">
+                <h3 class="product__price">€16.00</h3>
+                <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product dnm10">
+            <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+            <h5 class="product-title"> Metalldeckel</h5>
+            <div class="shop-item-details">
+                <h3 class="product__price">€16.00</h3>
+                <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product dnm10">
+            <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+            <h5 class="product-title"> Metalldeckel</h5>
+            <div class="shop-item-details">
+                <h3 class="product__price">€16.00</h3>
+                <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product dnm10">
+            <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+            <h5 class="product-title"> Metalldeckel</h5>
+            <div class="shop-item-details">
+                <h3 class="product__price">€16.00</h3>
+                <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product dnm10">
+            <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+            <h5 class="product-title"> Metalldeckel</h5>
+            <div class="shop-item-details">
+                <h3 class="product__price">€16.00</h3>
+                <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+            </div>
+        </div>
+
+     
+        <!--DNM 12-->
+        <div class="product dnm12">
+            <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+            <h5 class="product-title"> Metalldeckel</h5>
+            <div class="shop-item-details">
+                <h3 class="product__price">€16.00</h3>
+                <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product dnm12">
+            <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+            <h5 class="product-title"> Metalldeckel</h5>
+            <div class="shop-item-details">
+                <h3 class="product__price">€16.00</h3>
+                <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product dnm12">
+            <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+            <h5 class="product-title"> Metalldeckel</h5>
+            <div class="shop-item-details">
+                <h3 class="product__price">€16.00</h3>
+                <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product dnm12">
+            <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+            <h5 class="product-title"> Metalldeckel</h5>
+            <div class="shop-item-details">
+                <h3 class="product__price">€16.00</h3>
+                <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product dnm12">
+            <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+            <h5 class="product-title"> Metalldeckel</h5>
+            <div class="shop-item-details">
+                <h3 class="product__price">€16.00</h3>
+                <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+            </div>
+        </div>
+
+
+        <!--Dadant US 12-->
+        <div class="product dadantus12">
+            <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+            <h5 class="product-title"> Metalldeckel</h5>
+            <div class="shop-item-details">
+                <h3 class="product__price">€16.00</h3>
+                <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product dadantus12">
+            <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+            <h5 class="product-title"> Metalldeckel</h5>
+            <div class="shop-item-details">
+                <h3 class="product__price">€16.00</h3>
+                <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product dadantus12">
+            <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+            <h5 class="product-title"> Metalldeckel</h5>
+            <div class="shop-item-details">
+                <h3 class="product__price">€16.00</h3>
+                <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product dadantus12">
+            <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+            <h5 class="product-title"> Metalldeckel</h5>
+            <div class="shop-item-details">
+                <h3 class="product__price">€16.00</h3>
+                <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product dadantus12">
+            <img src="assets/images/Zander/Zander_Metalldeckel.jpg" class="product__image">
+            <h5 class="product-title"> Metalldeckel</h5>
+            <div class="shop-item-details">
+                <h3 class="product__price">€16.00</h3>
+                <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!--Footer Section-->
+    <footer class="footer">
+        <div class="footer-content">
+            <img alt="image" src="assets/images/Logos/stamp design 2021.png" class="footer-image" />
+            <div class="footer-container">
+                <span class="footer-text">
+                    <br />
+                    <span>60486 Solmsstraße 77</span>
+                    <br />
+                    <span>Frankfurt am Main</span>
+                    <br />
+                    <span>Deutschland</span>
+                    <br />
+                </span>
+                <span class="home-copyright">
+                    Copyright © 2023 Bienen Piraten
+                </span>
+                <span class="designed-by">
+                    <a href="https://zerocool989.github.io/porfolio-project-1/">
+                        designed by "NeoWeb Innovations" © 2023
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
+
+

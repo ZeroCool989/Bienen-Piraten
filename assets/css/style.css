@@ -1,27 +1,195 @@
-@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Roboto&display=swap');
-
-:root{
-  --main-brand-color: #eec04b;
-  --primary-color: #714925;
-  --secondary-color:#43382f;
-  --light-secondary-color: #6b4b17;
-  --text-color: black;
-  --secondary-text-color:#B3B4B6;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-*{
-  margin: 0;
-  padding:0;
+/*Navigationbar*/
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    S
 }
 
-body{
-  min-height: 100vh;
-  background-color: var(--main-brand-color);
-  font-family: 'Alex Brush';
-  font-size: 30px;
-  color: var(--text-color);
+nav {
+    flex: 1;
+    text-align: right;
 }
 
-h3{
-  font-size: 38px;
+nav ul {
+    display: inline-block;
+    list-style-type: none;
 }
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+p {
+    color: #555;
+}
+
+.container {
+    max-width: 1920px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.logo img {
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+}
+
+/*Hero Section*/
+.home-hero-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-container01 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.home-text02 {
+    align-self: stretch;
+
+}
+
+.home-image {
+    width: 500px;
+    height: 514px;
+    object-fit: cover;
+    margin-left: 40px;
+}
+
+/*Unsere Mission Section*/
+
+#unsere_mission_section {
+    padding:100px 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:100px;
+    flex-wrap: wrap;
+}
+
+.unsere_mission{
+    width:750px;
+    max-width: 90%;
+}
+
+#unsere_mission_section img{
+    width: 400px;
+    max-width: 90%;
+ 
+}
+
+#unsere_mission_section h2 {
+   font-size: 80px;
+}
+
+#unsere_mission_section p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 175%;
+ }
+ 
+
+/*Products Section*/
+#produkte-section {
+    padding:70px 0;
+    margin-bottom: 100px;
+
+}
+
+#produkte-section img{
+    height: 350px;
+    width: 250px;
+    justify-content: center;
+}
+#produkte-section h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.flex_container{
+    margin-top: 50px;
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+
+.card *{
+ text-align: center;
+}
+
+.card button a {
+    justify-content: center;
+    margin-left: 25px;
+}   
+
+
+/*Footer Section*/
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #f5f5f5;  /* You can change this to match your site design */
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-image {
+    width: 250px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-content {
+        padding: 0 10px;
+    }
+}
+
+
+
