@@ -1,111 +1,101 @@
-.container1 {
-    display: flex;
-    max-width: 1920px;
-    margin:auto;
-    margin-top:50px;
-    padding-left: 25px;
-    padding-right: 25px;
-    justify-content: center;
-}
+/*Über Uns Section*/
 
-.text-container {
-    width: 500px;
-    height: 400px;
-    margin-right: 40px;
-    margin: 30px;
-    /* Adjust according to your preference */
-}
-
-.image-container img {
-    width: 500px;
-    object-fit: cover;
-    /* Adjust according to your preference */
-}
-
-
-
-.über-uns-container {
-    width: 100%;
-    display: flex;
-    overflow: auto;
-    min-height: 100vh;
-    align-items: center;
-    flex-direction: column;
-  }
- 
-
-
-  .über-uns-image3 {
-    width: 500px;
-    object-fit: cover;
-  }
-  .über-uns-container08 {
-    flex: 0 0 auto;
-    width: 100%;
+#über_uns_section {
+    padding: 100px 0;
     display: flex;
     justify-content: center;
-    margin-top:20px;
-  }
-  .über-uns-image4 {
-    width: 300px;
-    object-fit: cover;
-    align-self: center;
-    margin-right: 40px;
-  }
-  .über-uns-container09 {
-    flex: 0 0 auto;
-    width: auto;
-    height: auto;
-    display: flex;
     align-items: center;
-    flex-direction: column;
-  }
-  .über-uns-text21 {
-    width: 415px;
-    height: 38px;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.über_uns {
+    width: 750px;
+    max-width: 90%;
+    margin-top: -40px;
+}
+
+#über_uns_section img {
+    width: 400px;
+    max-width: 90%;
+
+}
+
+#über_uns_section h2 {
+    font-size: 80px;
+    text-align: center;
+}
+
+#über_uns_section p {
     font-size: 20px;
-    align-self: flex-start;
-    font-style: normal;
-    font-weight: bold;
-  }
-  .über-uns-text22 {
-    width: 500px;
-    font-size: 16px;
-  }
-  .über-uns-container10 {
-    width: 100%;
-    height: 330px;
+    text-align: justify;
+    line-height: 175%;
+}
+
+/*Damir Section*/
+
+
+#damir_section {
+    padding: 100px 0;
     display: flex;
-    margin-top: 50px;
-    align-items: center;
     justify-content: center;
-  }
-
-  .über-uns-text33 {
-    top: 66px;
-    left: 0px;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400 bold;
-  }
-  .über-uns-container12 {
-    flex: 0 0 auto;
-    width: auto;
-    height: auto;
-    display: flex;
     align-items: center;
-    flex-direction: column;
-  }
-  .über-uns-text37 {
-    width: 500px;
-  }
-  .über-uns-image5 {
-    width: 300px;
-    align-self: center;
-    object-fit: cover;
-    margin-left: 40px;
-  }
-  
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.damir {
+    width: 750px;
+    max-width: 90%;
+    margin-top: -40px;
+}
+
+#damir_section img {
+    width: 400px;
+    max-width: 90%;
+
+}
+
+#damir_section h2 {
+    font-size: 40px;
+}
+
+#damir_section p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 175%;
+}
+ 
+/*Semir Section*/
 
 
-  
+#semir_section {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.semir {
+    width: 750px;
+    max-width: 90%;
+    margin-top: -40px;
+}
+
+#semir_section img {
+    width: 400px;
+    max-width: 90%;
+
+}
+
+#semir_section h2 {
+    font-size: 40px;
+}
+
+#semir_section p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 175%;
+}

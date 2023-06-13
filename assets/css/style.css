@@ -20,8 +20,8 @@ nav ul li {
     display: inline-block;
     margin-right: 20px;
     font-size: 20px;
-    top:20px;
-    right: 20px; 
+    top: 20px;
+    right: 20px;
 }
 
 a {
@@ -29,44 +29,18 @@ a {
     color: #555;
 }
 
-label [for='toggel_button'] {
-    display: none;
-}
 
 #toggle_button {
     display: none;
 }
 
-
-
-@media(max-width: 768px) {
-
-    nav {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        font-size: 20px;  
-    }
-
-    nav ul {
-        display: none;
-        flex-direction: column;
-        gap:20px;
-    }
-
-    nav i{
-        font-size: 40px;
-    }
-
-    #toggle_button:checked ~ ul {
-        display: flex;
-    }
-
-    label [for='toggel_button'] {
-        display: block;
-    }
+label[for="toggle_button"] {
+    display: none;
 }
 
+label[for="toggle_button"] span {
+    font-size:40px;
+}
 
 p {
     color: #555;
@@ -83,8 +57,47 @@ p {
     width: 200px;
     height: 100px;
     overflow: hidden;
-    margin-top:20px;
+    margin-top: 20px;
 }
+
+@media(max-width: 768px) {
+
+    .navbar{
+        flex-wrap: wrap;
+    }
+
+    nav {
+        top: 20px;
+        right: 20px;
+        font-size: 20px;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        margin-left: -20px;
+    }
+
+    nav i {
+        font-size: 40px;
+    }
+
+    #toggle_button:checked ~ ul {
+        display: flex;
+    }
+
+    label[for="toggle_button"] {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .unsere_mission {
+        margin-top: -100px;
+    }
+}
+
 
 /*Hero Section*/
 .home-hero-section {
@@ -128,6 +141,7 @@ p {
 .unsere_mission {
     width: 750px;
     max-width: 90%;
+    margin-top: -40px;
 }
 
 #unsere_mission_section img {
@@ -138,6 +152,7 @@ p {
 
 #unsere_mission_section h2 {
     font-size: 80px;
+    text-align: center;
 }
 
 #unsere_mission_section p {
